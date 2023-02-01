@@ -43,6 +43,9 @@ Run CONE.py with the command:
 ```
 
 ## Example output
+`aspectsplit` is the popularity of the topic.
+For `sentimentsplit`, 0 represents negative, 1 represents positive. `percentage` is the corresponding proportion of the sentiment.
+
 HotelRec:
 * *{'aspectsplit': 0.03829713493530499, 'sentimentsplit': {0: {'percentage': 0.92, 'keypoint': ['These go at least every  seconds around the building and are incredibly noisy to the point where the room shakes.\n', 'One of our rooms was directly facing the outdoor stage where the band performed every night...LOUDLY.\n', 'What was supposed to be a quiet break left me exhausted!!!!!!!\n']}, 1: {'percentage': 0.08, 'keypoint': ['Once you were inside it was really quiet, I think being out the back was a good thing.\n', 'I was in , quite quiet and a good size too.\n', 'Everything was in walking distance but not under your nose so it was quiet most of the time!\n']}}}*
 * *{'aspectsplit': 0.046918322550831795, 'sentimentsplit': {0: {'percentage': 0.32, 'keypoint': ['The breakfast was under par all squashed in a small room.the presentation of the breakfast was not good squashed in an alcove.\n', 'Breakfast was served until -am but at -am all the eggs and bacon were gone and no one around to get more very disorganised.\n', 'Breakfast was low quality and guests had to wait several times for it to be refilled.\n']}, 1: {'percentage': 0.68, 'keypoint': ['We received an nice restaurant coupon, so we went out for breakfast, although their breakfast offering looked appealing.\n', 'Yes, it was larger and yes they brought us breakfast (I usually went to get it myself for the family, no big deal.\n', 'Breakfast was ok, with a choice of biscuits and gravy or a waffle as your hot dish.\n']}}}*
